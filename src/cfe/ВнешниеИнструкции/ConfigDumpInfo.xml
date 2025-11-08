@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="Catalog.Инструкции" id="66e7d3f0-c2c3-42b9-9e80-20e3320e5c6f" configVersion="4eb287874324d230dda6cf3e786f5b6b283a8b57">
+			<Metadata name="Catalog.Инструкции.Attribute.ВИ_АдресВнешнейИнструкции" id="56b95539-5d7b-486f-b73a-6fac45ad03bd"/>
+			<Metadata name="Catalog.Инструкции.Attribute.ВИ_ВнешняяИнструкция" id="61eb709c-a1e4-4558-be01-21df05effe67"/>
+		</Metadata>
+		<Metadata name="Catalog.Инструкции.Form.ФормаЭлемента" id="f5d1fc50-5e71-433b-ba95-e79258fcf9fa" configVersion="4dd9b122574c8edb8b098c664094631b2e4bf0e0"/>
+		<Metadata name="Catalog.Инструкции.Form.ФормаЭлемента.Form" id="f5d1fc50-5e71-433b-ba95-e79258fcf9fa.0" configVersion="d72facbf3beb49bdebcabf858db07ff0813eea07"/>
+		<Metadata name="CommonModule.РаботаСИнструкциями" id="ad0f9fc0-03ac-44b8-b929-4373d1d8e758" configVersion="8b456542055f579035ba59d32d4c1d023de0f172"/>
+		<Metadata name="CommonModule.РаботаСИнструкциями.Module" id="ad0f9fc0-03ac-44b8-b929-4373d1d8e758.0" configVersion="4ca0b6407cb61ecd4bc7e3958716bdd6ce47fc81"/>
+		<Metadata name="Configuration.ВнешниеИнструкции" id="b3dedbad-036e-4759-9cbd-bb3c00f7a9ae" configVersion="0ad8761748d0174fee7cc6023e320092ac386341"/>
+		<Metadata name="Language.Русский" id="de80a729-5781-4bf0-b2bc-ec10dde0d56e" configVersion="64199cdec54d4409d767ce3f0f2ab94fd3b0f6e1"/>
+		<Metadata name="Subsystem.ВИ_ВнешниеИнструкции" id="134a7470-a7bc-4cf2-af13-4a8b99416c9f" configVersion="6d7d7221896201228580b8a4616657f633e7616f"/>
+	</ConfigVersions>
+</ConfigDumpInfo>

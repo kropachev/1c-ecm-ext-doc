@@ -1,0 +1,1189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Width>90</Width>
+	<Group>Horizontal</Group>
+	<VerticalScroll>useIfNecessary</VerticalScroll>
+	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаПраваДоступа" id="262">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаПраваДоступаРасширеннаяПодсказка" id="263"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<Pages name="Страницы" id="221">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="222"/>
+			<ChildItems>
+				<Page name="СтраницаОсновныхРеквизитов" id="84">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Инструкция</v8:content>
+						</v8:item>
+					</Title>
+					<Group>Horizontal</Group>
+					<ExtendedTooltip name="СтраницаОсновныхРеквизитовРасширеннаяПодсказка" id="91"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаОсновныхРеквизитов" id="243">
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаОсновныхРеквизитовРасширеннаяПодсказка" id="244"/>
+							<ChildItems>
+								<InputField name="Наименование" id="9">
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Наименование</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Наименование</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="НаименованиеКонтекстноеМеню" id="10"/>
+									<ExtendedTooltip name="НаименованиеExtendedTooltip" id="92"/>
+								</InputField>
+								<InputField name="ПредметИнструкций" id="15">
+									<UserVisible>
+										<xr:Common>false</xr:Common>
+									</UserVisible>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Относится к предмету</v8:content>
+										</v8:item>
+									</Title>
+									<TitleLocation>Left</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Предмет, к которому относится инструкция</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<HorizontalStretch>true</HorizontalStretch>
+									<DropListButton>false</DropListButton>
+									<OpenButton>false</OpenButton>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Предмет</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="ПредметИнструкцийКонтекстноеМеню" id="16"/>
+									<ExtendedTooltip name="ПредметИнструкцийExtendedTooltip" id="93"/>
+								</InputField>
+								<InputField name="Комментарий" id="11">
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Комментарий</v8:content>
+										</v8:item>
+									</ToolTip>
+									<EditMode>EnterOnInput</EditMode>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>2</Height>
+									<VerticalStretch>false</VerticalStretch>
+									<MultiLine>true</MultiLine>
+									<InputHint>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Комментарий</v8:content>
+										</v8:item>
+									</InputHint>
+									<ContextMenu name="КомментарийКонтекстноеМеню" id="12"/>
+									<ExtendedTooltip name="КомментарийExtendedTooltip" id="95"/>
+								</InputField>
+								<CheckBoxField name="Активна" id="73">
+									<TitleLocation>Right</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Устанавливает отображение инструкции</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+									<CheckBoxType>Auto</CheckBoxType>
+									<ContextMenu name="АктивнаКонтекстноеМеню" id="74"/>
+									<ExtendedTooltip name="АктивнаExtendedTooltip" id="94"/>
+								</CheckBoxField>
+							</ChildItems>
+						</UsualGroup>
+						<UsualGroup name="ГруппаТекстИнструкции" id="85">
+							<Group>Vertical</Group>
+							<Behavior>Usual</Behavior>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаТекстИнструкцииРасширеннаяПодсказка" id="113"/>
+							<ChildItems>
+								<HTMLDocumentField name="ТекстИнструкции" id="86">
+									<TitleLocation>None</TitleLocation>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Текст инструкции должен быть лаконичным и не допускать различных толкований.</v8:content>
+										</v8:item>
+									</ToolTip>
+									<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+									<Width>30</Width>
+									<ContextMenu name="ТекстИнструкцииКонтекстноеМеню" id="87"/>
+									<ExtendedTooltip name="ТекстИнструкцииExtendedTooltip" id="117"/>
+								</HTMLDocumentField>
+								<CommandBar name="ГруппаКнопок" id="118">
+									<EnableContentChange>true</EnableContentChange>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа кнопок</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа кнопок</v8:content>
+										</v8:item>
+									</ToolTip>
+									<CommandSource>Item.ТекстИнструкции</CommandSource>
+									<ExtendedTooltip name="ГруппаКнопокРасширеннаяПодсказка" id="119"/>
+									<ChildItems>
+										<Popup name="ГруппаКнопокЗагрузить" id="256">
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Загрузить...</v8:content>
+												</v8:item>
+											</Title>
+											<ExtendedTooltip name="ГруппаКнопокЗагрузитьРасширеннаяПодсказка" id="257"/>
+											<ChildItems>
+												<Button name="ЗагрузитьФайлИнструкции" id="88">
+													<Type>CommandBarButton</Type>
+													<Representation>PictureAndText</Representation>
+													<CommandName>0</CommandName>
+													<Title>
+														<v8:item>
+															<v8:lang>ru</v8:lang>
+															<v8:content>Из файла</v8:content>
+														</v8:item>
+													</Title>
+													<ExtendedTooltip name="ЗагрузитьФайлИнструкцииExtendedTooltip" id="115"/>
+												</Button>
+												<Button name="ЗагрузитьТиповуюИнструкцию" id="260">
+													<Type>CommandBarButton</Type>
+													<CommandName>0</CommandName>
+													<ExtendedTooltip name="ЗагрузитьТиповуюИнструкциюРасширеннаяПодсказка" id="261"/>
+												</Button>
+											</ChildItems>
+										</Popup>
+										<Button name="СохранитьФайлИнструкции" id="89">
+											<Type>CommandBarButton</Type>
+											<Representation>PictureAndText</Representation>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="СохранитьФайлИнструкцииExtendedTooltip" id="116"/>
+										</Button>
+									</ChildItems>
+								</CommandBar>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаУсловийОтображения" id="126">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Условия отображения</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаУсловийОтображенияРасширеннаяПодсказка" id="127"/>
+					<ChildItems>
+						<Table name="УсловияОтображения" id="137">
+							<Representation>List</Representation>
+							<HeightInTableRows>3</HeightInTableRows>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="УсловияОтображенияКонтекстноеМеню" id="138"/>
+							<AutoCommandBar name="УсловияОтображенияКоманднаяПанель" id="139">
+								<Autofill>false</Autofill>
+								<ChildItems>
+									<Button name="УсловияОтображенияДобавить" id="202">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="УсловияОтображенияДобавитьРасширеннаяПодсказка" id="203"/>
+									</Button>
+									<Button name="УсловияОтображенияСкопировать" id="204">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="УсловияОтображенияСкопироватьРасширеннаяПодсказка" id="205"/>
+									</Button>
+									<Button name="УсловияОтображенияУдалить" id="206">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="УсловияОтображенияУдалитьРасширеннаяПодсказка" id="207"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="УсловияОтображенияРасширеннаяПодсказка" id="140"/>
+							<SearchStringAddition name="УсловияОтображенияСтрокаПоиска" id="223">
+								<AdditionSource>
+									<Item>УсловияОтображения</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УсловияОтображенияСтрокаПоискаКонтекстноеМеню" id="224"/>
+								<ExtendedTooltip name="УсловияОтображенияСтрокаПоискаРасширеннаяПодсказка" id="225"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="УсловияОтображенияСостояниеПросмотра" id="226">
+								<AdditionSource>
+									<Item>УсловияОтображения</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="УсловияОтображенияСостояниеПросмотраКонтекстноеМеню" id="227"/>
+								<ExtendedTooltip name="УсловияОтображенияСостояниеПросмотраРасширеннаяПодсказка" id="228"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="УсловияОтображенияУправлениеПоиском" id="229">
+								<AdditionSource>
+									<Item>УсловияОтображения</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="УсловияОтображенияУправлениеПоискомКонтекстноеМеню" id="230"/>
+								<ExtendedTooltip name="УсловияОтображенияУправлениеПоискомРасширеннаяПодсказка" id="231"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="УсловияОтображенияОрганизация" id="245">
+									<EditMode>EnterOnInput</EditMode>
+									<AutoCellHeight>true</AutoCellHeight>
+									<Width>1</Width>
+									<ContextMenu name="УсловияОтображенияОрганизацияКонтекстноеМеню" id="246"/>
+									<ExtendedTooltip name="УсловияОтображенияОрганизацияРасширеннаяПодсказка" id="247"/>
+								</InputField>
+								<InputField name="УсловияОтображенияВидДокумента" id="168">
+									<EditMode>EnterOnInput</EditMode>
+									<AutoCellHeight>true</AutoCellHeight>
+									<Width>1</Width>
+									<ClearButton>true</ClearButton>
+									<OpenButton>false</OpenButton>
+									<ContextMenu name="УсловияОтображенияВидДокументаКонтекстноеМеню" id="169"/>
+									<ExtendedTooltip name="УсловияОтображенияВидДокументаРасширеннаяПодсказка" id="170"/>
+								</InputField>
+								<InputField name="УсловияОтображенияСостояниеДокумента" id="171">
+									<EditMode>EnterOnInput</EditMode>
+									<AutoCellHeight>true</AutoCellHeight>
+									<Width>1</Width>
+									<ClearButton>true</ClearButton>
+									<OpenButton>false</OpenButton>
+									<ContextMenu name="УсловияОтображенияСостояниеДокументаКонтекстноеМеню" id="172"/>
+									<ExtendedTooltip name="УсловияОтображенияСостояниеДокументаРасширеннаяПодсказка" id="173"/>
+								</InputField>
+								<InputField name="УсловияОтображенияГрифДоступа" id="174">
+									<EditMode>EnterOnInput</EditMode>
+									<AutoCellHeight>true</AutoCellHeight>
+									<Width>1</Width>
+									<ClearButton>true</ClearButton>
+									<OpenButton>false</OpenButton>
+									<ContextMenu name="УсловияОтображенияГрифДоступаКонтекстноеМеню" id="175"/>
+									<ExtendedTooltip name="УсловияОтображенияГрифДоступаРасширеннаяПодсказка" id="176"/>
+								</InputField>
+								<InputField name="УсловияОтображенияВопросДеятельности" id="177">
+									<EditMode>EnterOnInput</EditMode>
+									<AutoCellHeight>true</AutoCellHeight>
+									<Width>1</Width>
+									<ClearButton>true</ClearButton>
+									<OpenButton>false</OpenButton>
+									<ContextMenu name="УсловияОтображенияВопросДеятельностиКонтекстноеМеню" id="178"/>
+									<ExtendedTooltip name="УсловияОтображенияВопросДеятельностиРасширеннаяПодсказка" id="179"/>
+								</InputField>
+								<InputField name="УсловияОтображенияШаблонДокумента" id="248">
+									<EditMode>EnterOnInput</EditMode>
+									<AutoCellHeight>true</AutoCellHeight>
+									<Width>1</Width>
+									<ContextMenu name="УсловияОтображенияШаблонДокументаКонтекстноеМеню" id="249"/>
+									<ExtendedTooltip name="УсловияОтображенияШаблонДокументаРасширеннаяПодсказка" id="250"/>
+								</InputField>
+								<InputField name="УсловияОтображенияШаблонПроцесса" id="251">
+									<EditMode>EnterOnInput</EditMode>
+									<AutoCellHeight>true</AutoCellHeight>
+									<Width>1</Width>
+									<ContextMenu name="УсловияОтображенияШаблонПроцессаКонтекстноеМеню" id="252"/>
+									<ExtendedTooltip name="УсловияОтображенияШаблонПроцессаРасширеннаяПодсказка" id="253"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаОграниченияДоступа" id="63">
+					<EnableContentChange>true</EnableContentChange>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Доступ</v8:content>
+						</v8:item>
+					</Title>
+					<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+					<Format>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЧДЦ=; ЧН=неограничен; ЧГ=0</v8:content>
+						</v8:item>
+					</Format>
+					<ExtendedTooltip name="СтраницаОграниченияДоступаРасширеннаяПодсказка" id="102"/>
+					<ChildItems>
+						<Table name="ДоступНаЧтение" id="64">
+							<HeightInTableRows>3</HeightInTableRows>
+							<Header>false</Header>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<FileDragMode>AsFile</FileDragMode>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Если список доступа пуст, инструкция доступна всем сотрудникам.</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+							<SearchStringLocation>None</SearchStringLocation>
+							<ViewStatusLocation>None</ViewStatusLocation>
+							<SearchControlLocation>None</SearchControlLocation>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="ДоступНаЧтениеКонтекстноеМеню" id="65"/>
+							<AutoCommandBar name="ДоступНаЧтениеКоманднаяПанель" id="66">
+								<ChildItems>
+									<Button name="ДоступНаЧтениеДоступНаЧтениеПодобрать1" id="254">
+										<Type>CommandBarButton</Type>
+										<CommandName>0</CommandName>
+										<ExtendedTooltip name="ДоступНаЧтениеДоступНаЧтениеПодобрать1РасширеннаяПодсказка" id="255"/>
+									</Button>
+								</ChildItems>
+							</AutoCommandBar>
+							<ExtendedTooltip name="ДоступНаЧтениеExtendedTooltip" id="108">
+								<AutoMaxWidth>false</AutoMaxWidth>
+							</ExtendedTooltip>
+							<SearchStringAddition name="ДоступНаЧтениеСтрокаПоиска" id="232">
+								<AdditionSource>
+									<Item>ДоступНаЧтение</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДоступНаЧтениеСтрокаПоискаКонтекстноеМеню" id="233"/>
+								<ExtendedTooltip name="ДоступНаЧтениеСтрокаПоискаРасширеннаяПодсказка" id="234"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="ДоступНаЧтениеСостояниеПросмотра" id="235">
+								<AdditionSource>
+									<Item>ДоступНаЧтение</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="ДоступНаЧтениеСостояниеПросмотраКонтекстноеМеню" id="236"/>
+								<ExtendedTooltip name="ДоступНаЧтениеСостояниеПросмотраРасширеннаяПодсказка" id="237"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="ДоступНаЧтениеУправлениеПоиском" id="238">
+								<AdditionSource>
+									<Item>ДоступНаЧтение</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="ДоступНаЧтениеУправлениеПоискомКонтекстноеМеню" id="239"/>
+								<ExtendedTooltip name="ДоступНаЧтениеУправлениеПоискомРасширеннаяПодсказка" id="240"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<InputField name="ДоступНаЧтениеПользователь" id="69">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Пользователь или роль</v8:content>
+										</v8:item>
+									</Title>
+									<Wrap>false</Wrap>
+									<DropListButton>true</DropListButton>
+									<ContextMenu name="ДоступНаЧтениеПользовательКонтекстноеМеню" id="70"/>
+									<ExtendedTooltip name="ДоступНаЧтениеПользовательExtendedTooltip" id="109"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>УсловияОтображенияОрганизация</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.Организация</dcsset:left>
+						<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>УсловияОтображенияВидДокумента</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.ВидДокумента</dcsset:left>
+						<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>УсловияОтображенияСостояниеДокумента</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.СостояниеДокумента</dcsset:left>
+						<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>УсловияОтображенияГрифДоступа</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.ГрифДоступа</dcsset:left>
+						<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>УсловияОтображенияВопросДеятельности</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.ВопросДеятельности</dcsset:left>
+						<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>УсловияОтображенияШаблонДокумента</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.ШаблонДокумента</dcsset:left>
+						<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>УсловияОтображенияШаблонПроцесса</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.ШаблонПроцесса</dcsset:left>
+						<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Текст</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Все</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<BaseForm version="2.20">
+		<Width>90</Width>
+		<Group>Horizontal</Group>
+		<VerticalScroll>useIfNecessary</VerticalScroll>
+		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ФормаПраваДоступа" id="262">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаПраваДоступаРасширеннаяПодсказка" id="263"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<Pages name="Страницы" id="221">
+				<PagesRepresentation>TabsOnTop</PagesRepresentation>
+				<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="222"/>
+				<ChildItems>
+					<Page name="СтраницаОсновныхРеквизитов" id="84">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Инструкция</v8:content>
+							</v8:item>
+						</Title>
+						<Group>Horizontal</Group>
+						<ExtendedTooltip name="СтраницаОсновныхРеквизитовРасширеннаяПодсказка" id="91"/>
+						<ChildItems>
+							<UsualGroup name="ГруппаОсновныхРеквизитов" id="243">
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаОсновныхРеквизитовРасширеннаяПодсказка" id="244"/>
+								<ChildItems>
+									<InputField name="Наименование" id="9">
+										<TitleLocation>None</TitleLocation>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Наименование</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<InputHint>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Наименование</v8:content>
+											</v8:item>
+										</InputHint>
+										<ContextMenu name="НаименованиеКонтекстноеМеню" id="10"/>
+										<ExtendedTooltip name="НаименованиеExtendedTooltip" id="92"/>
+									</InputField>
+									<InputField name="ПредметИнструкций" id="15">
+										<UserVisible>
+											<xr:Common>false</xr:Common>
+										</UserVisible>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Относится к предмету</v8:content>
+											</v8:item>
+										</Title>
+										<TitleLocation>Left</TitleLocation>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Предмет, к которому относится инструкция</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<HorizontalStretch>true</HorizontalStretch>
+										<DropListButton>false</DropListButton>
+										<OpenButton>false</OpenButton>
+										<InputHint>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Предмет</v8:content>
+											</v8:item>
+										</InputHint>
+										<ContextMenu name="ПредметИнструкцийКонтекстноеМеню" id="16"/>
+										<ExtendedTooltip name="ПредметИнструкцийExtendedTooltip" id="93"/>
+									</InputField>
+									<InputField name="Комментарий" id="11">
+										<TitleLocation>None</TitleLocation>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Комментарий</v8:content>
+											</v8:item>
+										</ToolTip>
+										<EditMode>EnterOnInput</EditMode>
+										<AutoMaxWidth>false</AutoMaxWidth>
+										<Height>2</Height>
+										<VerticalStretch>false</VerticalStretch>
+										<MultiLine>true</MultiLine>
+										<InputHint>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Комментарий</v8:content>
+											</v8:item>
+										</InputHint>
+										<ContextMenu name="КомментарийКонтекстноеМеню" id="12"/>
+										<ExtendedTooltip name="КомментарийExtendedTooltip" id="95"/>
+									</InputField>
+									<CheckBoxField name="Активна" id="73">
+										<TitleLocation>Right</TitleLocation>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Устанавливает отображение инструкции</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+										<CheckBoxType>Auto</CheckBoxType>
+										<ContextMenu name="АктивнаКонтекстноеМеню" id="74"/>
+										<ExtendedTooltip name="АктивнаExtendedTooltip" id="94"/>
+									</CheckBoxField>
+								</ChildItems>
+							</UsualGroup>
+							<UsualGroup name="ГруппаТекстИнструкции" id="85">
+								<Group>Vertical</Group>
+								<Behavior>Usual</Behavior>
+								<Representation>None</Representation>
+								<ShowTitle>false</ShowTitle>
+								<ExtendedTooltip name="ГруппаТекстИнструкцииРасширеннаяПодсказка" id="113"/>
+								<ChildItems>
+									<HTMLDocumentField name="ТекстИнструкции" id="86">
+										<TitleLocation>None</TitleLocation>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Текст инструкции должен быть лаконичным и не допускать различных толкований.</v8:content>
+											</v8:item>
+										</ToolTip>
+										<ToolTipRepresentation>Balloon</ToolTipRepresentation>
+										<Width>30</Width>
+										<ContextMenu name="ТекстИнструкцииКонтекстноеМеню" id="87"/>
+										<ExtendedTooltip name="ТекстИнструкцииExtendedTooltip" id="117"/>
+									</HTMLDocumentField>
+									<CommandBar name="ГруппаКнопок" id="118">
+										<EnableContentChange>true</EnableContentChange>
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа кнопок</v8:content>
+											</v8:item>
+										</Title>
+										<ToolTip>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Группа кнопок</v8:content>
+											</v8:item>
+										</ToolTip>
+										<CommandSource>Item.ТекстИнструкции</CommandSource>
+										<ExtendedTooltip name="ГруппаКнопокРасширеннаяПодсказка" id="119"/>
+										<ChildItems>
+											<Popup name="ГруппаКнопокЗагрузить" id="256">
+												<Title>
+													<v8:item>
+														<v8:lang>ru</v8:lang>
+														<v8:content>Загрузить...</v8:content>
+													</v8:item>
+												</Title>
+												<ExtendedTooltip name="ГруппаКнопокЗагрузитьРасширеннаяПодсказка" id="257"/>
+												<ChildItems>
+													<Button name="ЗагрузитьФайлИнструкции" id="88">
+														<Type>CommandBarButton</Type>
+														<Representation>PictureAndText</Representation>
+														<CommandName>0</CommandName>
+														<Title>
+															<v8:item>
+																<v8:lang>ru</v8:lang>
+																<v8:content>Из файла</v8:content>
+															</v8:item>
+														</Title>
+														<ExtendedTooltip name="ЗагрузитьФайлИнструкцииExtendedTooltip" id="115"/>
+													</Button>
+													<Button name="ЗагрузитьТиповуюИнструкцию" id="260">
+														<Type>CommandBarButton</Type>
+														<CommandName>0</CommandName>
+														<ExtendedTooltip name="ЗагрузитьТиповуюИнструкциюРасширеннаяПодсказка" id="261"/>
+													</Button>
+												</ChildItems>
+											</Popup>
+											<Button name="СохранитьФайлИнструкции" id="89">
+												<Type>CommandBarButton</Type>
+												<Representation>PictureAndText</Representation>
+												<CommandName>0</CommandName>
+												<ExtendedTooltip name="СохранитьФайлИнструкцииExtendedTooltip" id="116"/>
+											</Button>
+										</ChildItems>
+									</CommandBar>
+								</ChildItems>
+							</UsualGroup>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаУсловийОтображения" id="126">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Условия отображения</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="СтраницаУсловийОтображенияРасширеннаяПодсказка" id="127"/>
+						<ChildItems>
+							<Table name="УсловияОтображения" id="137">
+								<Representation>List</Representation>
+								<HeightInTableRows>3</HeightInTableRows>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="УсловияОтображенияКонтекстноеМеню" id="138"/>
+								<AutoCommandBar name="УсловияОтображенияКоманднаяПанель" id="139">
+									<Autofill>false</Autofill>
+									<ChildItems>
+										<Button name="УсловияОтображенияДобавить" id="202">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="УсловияОтображенияДобавитьРасширеннаяПодсказка" id="203"/>
+										</Button>
+										<Button name="УсловияОтображенияСкопировать" id="204">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="УсловияОтображенияСкопироватьРасширеннаяПодсказка" id="205"/>
+										</Button>
+										<Button name="УсловияОтображенияУдалить" id="206">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="УсловияОтображенияУдалитьРасширеннаяПодсказка" id="207"/>
+										</Button>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="УсловияОтображенияРасширеннаяПодсказка" id="140"/>
+								<SearchStringAddition name="УсловияОтображенияСтрокаПоиска" id="223">
+									<AdditionSource>
+										<Item>УсловияОтображения</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="УсловияОтображенияСтрокаПоискаКонтекстноеМеню" id="224"/>
+									<ExtendedTooltip name="УсловияОтображенияСтрокаПоискаРасширеннаяПодсказка" id="225"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="УсловияОтображенияСостояниеПросмотра" id="226">
+									<AdditionSource>
+										<Item>УсловияОтображения</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="УсловияОтображенияСостояниеПросмотраКонтекстноеМеню" id="227"/>
+									<ExtendedTooltip name="УсловияОтображенияСостояниеПросмотраРасширеннаяПодсказка" id="228"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="УсловияОтображенияУправлениеПоиском" id="229">
+									<AdditionSource>
+										<Item>УсловияОтображения</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="УсловияОтображенияУправлениеПоискомКонтекстноеМеню" id="230"/>
+									<ExtendedTooltip name="УсловияОтображенияУправлениеПоискомРасширеннаяПодсказка" id="231"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="УсловияОтображенияОрганизация" id="245">
+										<EditMode>EnterOnInput</EditMode>
+										<AutoCellHeight>true</AutoCellHeight>
+										<Width>1</Width>
+										<ContextMenu name="УсловияОтображенияОрганизацияКонтекстноеМеню" id="246"/>
+										<ExtendedTooltip name="УсловияОтображенияОрганизацияРасширеннаяПодсказка" id="247"/>
+									</InputField>
+									<InputField name="УсловияОтображенияВидДокумента" id="168">
+										<EditMode>EnterOnInput</EditMode>
+										<AutoCellHeight>true</AutoCellHeight>
+										<Width>1</Width>
+										<ClearButton>true</ClearButton>
+										<OpenButton>false</OpenButton>
+										<ContextMenu name="УсловияОтображенияВидДокументаКонтекстноеМеню" id="169"/>
+										<ExtendedTooltip name="УсловияОтображенияВидДокументаРасширеннаяПодсказка" id="170"/>
+									</InputField>
+									<InputField name="УсловияОтображенияСостояниеДокумента" id="171">
+										<EditMode>EnterOnInput</EditMode>
+										<AutoCellHeight>true</AutoCellHeight>
+										<Width>1</Width>
+										<ClearButton>true</ClearButton>
+										<OpenButton>false</OpenButton>
+										<ContextMenu name="УсловияОтображенияСостояниеДокументаКонтекстноеМеню" id="172"/>
+										<ExtendedTooltip name="УсловияОтображенияСостояниеДокументаРасширеннаяПодсказка" id="173"/>
+									</InputField>
+									<InputField name="УсловияОтображенияГрифДоступа" id="174">
+										<EditMode>EnterOnInput</EditMode>
+										<AutoCellHeight>true</AutoCellHeight>
+										<Width>1</Width>
+										<ClearButton>true</ClearButton>
+										<OpenButton>false</OpenButton>
+										<ContextMenu name="УсловияОтображенияГрифДоступаКонтекстноеМеню" id="175"/>
+										<ExtendedTooltip name="УсловияОтображенияГрифДоступаРасширеннаяПодсказка" id="176"/>
+									</InputField>
+									<InputField name="УсловияОтображенияВопросДеятельности" id="177">
+										<EditMode>EnterOnInput</EditMode>
+										<AutoCellHeight>true</AutoCellHeight>
+										<Width>1</Width>
+										<ClearButton>true</ClearButton>
+										<OpenButton>false</OpenButton>
+										<ContextMenu name="УсловияОтображенияВопросДеятельностиКонтекстноеМеню" id="178"/>
+										<ExtendedTooltip name="УсловияОтображенияВопросДеятельностиРасширеннаяПодсказка" id="179"/>
+									</InputField>
+									<InputField name="УсловияОтображенияШаблонДокумента" id="248">
+										<EditMode>EnterOnInput</EditMode>
+										<AutoCellHeight>true</AutoCellHeight>
+										<Width>1</Width>
+										<ContextMenu name="УсловияОтображенияШаблонДокументаКонтекстноеМеню" id="249"/>
+										<ExtendedTooltip name="УсловияОтображенияШаблонДокументаРасширеннаяПодсказка" id="250"/>
+									</InputField>
+									<InputField name="УсловияОтображенияШаблонПроцесса" id="251">
+										<EditMode>EnterOnInput</EditMode>
+										<AutoCellHeight>true</AutoCellHeight>
+										<Width>1</Width>
+										<ContextMenu name="УсловияОтображенияШаблонПроцессаКонтекстноеМеню" id="252"/>
+										<ExtendedTooltip name="УсловияОтображенияШаблонПроцессаРасширеннаяПодсказка" id="253"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+					<Page name="СтраницаОграниченияДоступа" id="63">
+						<EnableContentChange>true</EnableContentChange>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Доступ</v8:content>
+							</v8:item>
+						</Title>
+						<TitleFont ref="sys:DefaultGUIFont" bold="true" italic="false" underline="false" strikeout="false" kind="WindowsFont"/>
+						<Format>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЧДЦ=; ЧН=неограничен; ЧГ=0</v8:content>
+							</v8:item>
+						</Format>
+						<ExtendedTooltip name="СтраницаОграниченияДоступаРасширеннаяПодсказка" id="102"/>
+						<ChildItems>
+							<Table name="ДоступНаЧтение" id="64">
+								<HeightInTableRows>3</HeightInTableRows>
+								<Header>false</Header>
+								<AutoInsertNewRow>true</AutoInsertNewRow>
+								<EnableStartDrag>true</EnableStartDrag>
+								<EnableDrag>true</EnableDrag>
+								<FileDragMode>AsFile</FileDragMode>
+								<ToolTip>
+									<v8:item>
+										<v8:lang>ru</v8:lang>
+										<v8:content>Если список доступа пуст, инструкция доступна всем сотрудникам.</v8:content>
+									</v8:item>
+								</ToolTip>
+								<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+								<SearchStringLocation>None</SearchStringLocation>
+								<ViewStatusLocation>None</ViewStatusLocation>
+								<SearchControlLocation>None</SearchControlLocation>
+								<RowFilter xsi:nil="true"/>
+								<ContextMenu name="ДоступНаЧтениеКонтекстноеМеню" id="65"/>
+								<AutoCommandBar name="ДоступНаЧтениеКоманднаяПанель" id="66">
+									<ChildItems>
+										<Button name="ДоступНаЧтениеДоступНаЧтениеПодобрать1" id="254">
+											<Type>CommandBarButton</Type>
+											<CommandName>0</CommandName>
+											<ExtendedTooltip name="ДоступНаЧтениеДоступНаЧтениеПодобрать1РасширеннаяПодсказка" id="255"/>
+										</Button>
+									</ChildItems>
+								</AutoCommandBar>
+								<ExtendedTooltip name="ДоступНаЧтениеExtendedTooltip" id="108">
+									<AutoMaxWidth>false</AutoMaxWidth>
+								</ExtendedTooltip>
+								<SearchStringAddition name="ДоступНаЧтениеСтрокаПоиска" id="232">
+									<AdditionSource>
+										<Item>ДоступНаЧтение</Item>
+										<Type>SearchStringRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ДоступНаЧтениеСтрокаПоискаКонтекстноеМеню" id="233"/>
+									<ExtendedTooltip name="ДоступНаЧтениеСтрокаПоискаРасширеннаяПодсказка" id="234"/>
+								</SearchStringAddition>
+								<ViewStatusAddition name="ДоступНаЧтениеСостояниеПросмотра" id="235">
+									<AdditionSource>
+										<Item>ДоступНаЧтение</Item>
+										<Type>ViewStatusRepresentation</Type>
+									</AdditionSource>
+									<ContextMenu name="ДоступНаЧтениеСостояниеПросмотраКонтекстноеМеню" id="236"/>
+									<ExtendedTooltip name="ДоступНаЧтениеСостояниеПросмотраРасширеннаяПодсказка" id="237"/>
+								</ViewStatusAddition>
+								<SearchControlAddition name="ДоступНаЧтениеУправлениеПоиском" id="238">
+									<AdditionSource>
+										<Item>ДоступНаЧтение</Item>
+										<Type>SearchControl</Type>
+									</AdditionSource>
+									<ContextMenu name="ДоступНаЧтениеУправлениеПоискомКонтекстноеМеню" id="239"/>
+									<ExtendedTooltip name="ДоступНаЧтениеУправлениеПоискомРасширеннаяПодсказка" id="240"/>
+								</SearchControlAddition>
+								<ChildItems>
+									<InputField name="ДоступНаЧтениеПользователь" id="69">
+										<Title>
+											<v8:item>
+												<v8:lang>ru</v8:lang>
+												<v8:content>Пользователь или роль</v8:content>
+											</v8:item>
+										</Title>
+										<Wrap>false</Wrap>
+										<DropListButton>true</DropListButton>
+										<ContextMenu name="ДоступНаЧтениеПользовательКонтекстноеМеню" id="70"/>
+										<ExtendedTooltip name="ДоступНаЧтениеПользовательExtendedTooltip" id="109"/>
+									</InputField>
+								</ChildItems>
+							</Table>
+						</ChildItems>
+					</Page>
+				</ChildItems>
+			</Pages>
+		</ChildItems>
+		<Attributes>
+			<ConditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>УсловияОтображенияОрганизация</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.Организация</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Все</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>УсловияОтображенияВидДокумента</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.ВидДокумента</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Все</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>УсловияОтображенияСостояниеДокумента</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.СостояниеДокумента</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Все</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>УсловияОтображенияГрифДоступа</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.ГрифДоступа</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Все</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>УсловияОтображенияВопросДеятельности</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.ВопросДеятельности</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Все</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>УсловияОтображенияШаблонДокумента</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.ШаблонДокумента</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Все</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+				<dcsset:item>
+					<dcsset:selection>
+						<dcsset:item>
+							<dcsset:field>УсловияОтображенияШаблонПроцесса</dcsset:field>
+						</dcsset:item>
+					</dcsset:selection>
+					<dcsset:filter>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.УсловияОтображения.ШаблонПроцесса</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+					</dcsset:filter>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>Текст</dcscor:parameter>
+							<dcscor:value xsi:type="v8:LocalStringType">
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Все</v8:content>
+								</v8:item>
+							</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+				</dcsset:item>
+			</ConditionalAppearance>
+		</Attributes>
+	</BaseForm>
+</Form>
