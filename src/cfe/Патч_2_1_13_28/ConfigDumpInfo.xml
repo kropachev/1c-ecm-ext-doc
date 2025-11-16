@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.20">
+	<ConfigVersions>
+		<Metadata name="CommonModule.ПереходПоСсылкам_HTMLВызовСервера" id="5250d8cd-304b-4f6b-8d24-cceeaea11adf" configVersion="432465f7d5ce7d59bec3d30164f9cf1aa949fcb6"/>
+		<Metadata name="CommonModule.ПереходПоСсылкам_HTMLВызовСервера.Module" id="5250d8cd-304b-4f6b-8d24-cceeaea11adf.0" configVersion="cf30246f530cdf50987975cb97b23ffc53158cd1"/>
+		<Metadata name="CommonModule.РаботаСИнструкциямиКлиент" id="9028ae22-8952-45cf-9860-cc85efa40efc" configVersion="912d8f15e4e26ea59d6b341a5219352aab570487"/>
+		<Metadata name="CommonModule.РаботаСИнструкциямиКлиент.Module" id="9028ae22-8952-45cf-9860-cc85efa40efc.0" configVersion="412bcc11911b2f2fc2ed5b56775f40c297da94c9"/>
+		<Metadata name="Configuration.РаботаСИнструкциямиПереходПоСсылкам" id="606e4955-ea09-405f-bab2-385f0337a06c" configVersion="8e259c8b7dc8557fd3e60126729878ec8edae4b7"/>
+		<Metadata name="Language.Русский" id="c35900eb-5f24-492e-9348-9a59f7a0a708" configVersion="78f3fb3e2d31936b1b7260b20f8a946b27745110"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
