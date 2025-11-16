@@ -17,7 +17,7 @@
 			<Server>true</Server>
 			<ExternalConnection>true</ExternalConnection>
 			<ClientOrdinaryApplication>true</ClientOrdinaryApplication>
-			<ServerCall>false</ServerCall>
+			<ServerCall>true</ServerCall>
 		</Properties>
 	</CommonModule>
 </MetaDataObject>
