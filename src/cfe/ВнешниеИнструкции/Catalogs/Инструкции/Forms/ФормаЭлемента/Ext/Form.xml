@@ -3,7 +3,6 @@
 	<Width>90</Width>
 	<Group>Horizontal</Group>
 	<VerticalScroll>useIfNecessary</VerticalScroll>
-	<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 		<ChildItems>
 			<Button name="ФормаПраваДоступа" id="262">
@@ -596,7 +595,6 @@
 		<Width>90</Width>
 		<Group>Horizontal</Group>
 		<VerticalScroll>useIfNecessary</VerticalScroll>
-		<UseForFoldersAndItems>Items</UseForFoldersAndItems>
 		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
 			<ChildItems>
 				<Button name="ФормаПраваДоступа" id="262">
